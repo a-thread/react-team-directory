@@ -42,7 +42,8 @@ Check it out for yourself: [Team Directory](https://a-thread.github.io/react-tea
 
 * React
 * Typescript
-* Material
+* Material-UI
+* Express
 * Axios
 * WebPack
 * Google Fonts
