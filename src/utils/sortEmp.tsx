@@ -1,10 +1,10 @@
 const sortEmp = {
     searchEmp: (value: string, empArr: any[]) => {
-        let filteredEmps = empArr.filter((emp: { firstName: string; lastName: string; email: string; phone: string; city: string; state: string; }) => {
+        let filteredEmps = empArr.filter((emp: { firstName: string; lastName: string; email: string; cell: string; }) => {
             return emp.firstName.toLowerCase().includes(value.toLowerCase()) ||
                 emp.lastName.toLowerCase().includes(value.toLowerCase()) ||
                 emp.email.toLowerCase().includes(value.toLowerCase()) ||
-                emp.phone.toLowerCase().includes(value.toLowerCase())
+                emp.cell.toLowerCase().includes(value.toLowerCase())
         })
         return filteredEmps;
     },
