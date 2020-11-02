@@ -10,7 +10,7 @@
 
 ## Description
 
-**Team Directory** is an application built with react that enables the user to view, search and sort their employees by id, first name, last name, cell number and email. The directory also shows a photo of each employee so that employees can familiarize themselves with the team.
+**Team Directory** is an application built in Typescript with React that enables the user to view, search and sort their employees by id, first name, last name, cell number and email. The directory also shows a photo of each employee so that employees can familiarize themselves with the team.
 
 ---
 
