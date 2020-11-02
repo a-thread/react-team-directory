@@ -1,6 +1,7 @@
 # Team Directory 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![ts](https://badgen.net/badge/Built%20With/TypeScript/blue)
 
 ![Photo of Directory](./static/img/demo.png)
 
