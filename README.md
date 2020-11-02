@@ -44,6 +44,9 @@ Check it out for yourself: [Team Directory](https://a-thread.github.io/react-tea
 * Typescript
 * Material
 * Axios
+* WebPack
+* Google Fonts
+* Font Awesome
 * PostMan
 
 ### Contributing
