@@ -8,7 +8,7 @@ function App() {
       <header>
         <h1>Team Directory</h1>
       </header>
-        <EmpContainer />
+      <EmpContainer />
     </>
   );
 }

@@ -22,13 +22,13 @@ class EmpContainer extends Component {
                     (emp:
                         {
                             id: { value: string; };
-                            picture: { large: string; };
+                            picture: { medium: string; };
                             name: { first: string; last: string; };
                             email: string; cell: string;
                         }) => {
                         return {
                             id: emp.id.value,
-                            picture: emp.picture.large,
+                            picture: emp.picture.medium,
                             firstName: emp.name.first,
                             lastName: emp.name.last,
                             email: emp.email,
@@ -82,9 +82,7 @@ class EmpContainer extends Component {
                 <div className="searchContainer">
                     <SearchBar handleInput={this.handleInput} />
                 </div>
-                <div className="tableContainer">
-                    <EmpTable results={this.state.empArr} handleSort={this.handleSort} orderBy={this.state.orderBy} order={this.state.order} />
-                </div>
+                <EmpTable results={this.state.empArr} handleSort={this.handleSort} orderBy={this.state.orderBy} order={this.state.order} />
             </>
         )
     }

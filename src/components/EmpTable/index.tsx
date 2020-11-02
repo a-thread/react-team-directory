@@ -67,7 +67,7 @@ function EmpTable(props: { results: any[]; orderBy: string; order: string; handl
                         <TableCell align="center">Email
                         <TableSortLabel active={props.orderBy === "email"} onClick={() => props.handleSort("email", props.order)}></TableSortLabel>
                         </TableCell>
-                        <TableCell align="center">Cell Number
+                        <TableCell align="center">Phone Number
                         <TableSortLabel active={props.orderBy === "phone"} onClick={() => props.handleSort("cell", props.order)}></TableSortLabel>
                         </TableCell>
                     </TableRow>
