@@ -14,17 +14,28 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default function ColorTextFields() {
+
+type Props = {
+  handleInput: any;
+}
+
+const SearchBar: React.FC<Props> = ({
+  handleInput
+}) => {
   const classes = useStyles();
 
   return (
     <form className={classes.root} noValidate autoComplete="off">
       <TextField
-        id="outlined-secondary"
+        id="standard-search"
         label="Employee Search"
+        name="search"
         variant="outlined"
         color="secondary"
+        onChange={handleInput}
       />
     </form>
   );
 }
+
+export default SearchBar;
