@@ -29,10 +29,11 @@
 *Demo to come!*
 
 ### Technologies Used
-- Material
 - React
-- Axios
 - Typescript
+- Material
+- Axios
+- PostMan
 
 ### Contributing
 If you'd like to contribute to this application, feel free to submit a pull request.
