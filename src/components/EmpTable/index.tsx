@@ -12,7 +12,7 @@ import Paper from '@material-ui/core/Paper';
 function EmpTable(props: { results: any[]; orderBy: string; order: string; handleSort: (arg0: string, arg1: any) => void; }) {
 
     const empArr = props.results;
-    const [sortedField, setSortedField] = useState(null);
+    const [sortedField] = useState(null);
     const sortedArr = [...empArr];
 
     if (sortedField)
